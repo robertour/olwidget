@@ -83,8 +83,7 @@ var olwidget = {
                     { numZoomLevels: 19 });
         },
         osmarender: function() {
-            return new OpenLayers.Layer.OSM.Osmarender(
-                    'OpenStreetMap (Osmarender)');
+            return new OpenLayers.Layer.OSM.Mapnik("Mapnik")
         }
     },
     google: {
